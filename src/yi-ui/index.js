@@ -1,9 +1,15 @@
 import YiSnowflak from "./snowflake/index.js";// 雪花组件
 import YiParticle from "./particle/index.js";// 粒子背景组件
+import YiCopy from "./copy/index.js";// 复制组件
+import YiPrint from './print/index.js';// 打印组件
+import YiDownload from "./download/index.js";// 下载组件
 
 const components = [
     YiSnowflak,
-    YiParticle
+    YiParticle,
+    YiCopy,
+    YiPrint,
+    YiDownload
 ]
 
 const install = (Vue) => {
@@ -19,5 +25,8 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
     install,
     YiSnowflak,
-    YiParticle
+    YiParticle,
+    YiCopy,
+    YiPrint,
+    YiDownload
 }

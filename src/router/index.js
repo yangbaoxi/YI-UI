@@ -21,6 +21,21 @@ const router = new Router({
             path: '/particle',
             name: 'particle',
             component: () => import('@/views/particle/particleDemo.vue')
+        },
+        {
+            path: '/copy',
+            name: 'copy',
+            component: () => import('@/views/copy/copyDemo.vue')
+        },
+        {
+            path: '/print',
+            name: 'print',
+            component: () => import('@/views/print/printDemo.vue')
+        },
+        {
+            path: '/download',
+            name: 'download',
+            component: () => import('@/views/download/downloadDemo.vue')
         }
     ]
 })

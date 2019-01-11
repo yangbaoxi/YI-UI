@@ -1,14 +1,15 @@
 import $axios from "./service.util";
 
-const getUsers = data => {
+const download = data => {
     return $axios({
-        baseURL: 'http://192.168.1.101:3000',
-        url: '/users/signIn',
+        baseURL: 'http://newslib2.xinhua.io/kbapi2/kbaseservice',
+        url: '/attach/download',
         method: 'post',
+        responseType: "arraybuffer",
         data
     })
 }
 
 export default {
-    getUsers
+    download
 }
