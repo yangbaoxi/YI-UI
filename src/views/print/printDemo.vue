@@ -2,8 +2,14 @@
     <div>
         <h1 id="title">测试打印 Demo </h1>
 
-        <yi-print ref="aa" :hidden="false" :title="'测试i打印'" :printHTML="html"></yi-print>
-        <button @click="dda()">打印</button>
+        <yi-print ref="aa"  :title="'测试i打印'" :icon="'el-icon-search'">
+            <div>
+                1213d
+            </div>
+
+            <!-- <button slot="ButtonName"><span>打印</span></button> -->
+        </yi-print>
+        <!-- <button @click="dda()">打印</button> -->
     </div>
 </template>
 

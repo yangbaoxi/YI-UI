@@ -3,13 +3,15 @@ import YiParticle from "./particle/index.js";// 粒子背景组件
 import YiCopy from "./copy/index.js";// 复制组件
 import YiPrint from './print/index.js';// 打印组件
 import YiDownload from "./download/index.js";// 下载组件
+import YiPhotoPreview from "./photoPreview/index.js";// 图片预览
 
 const components = [
     YiSnowflak,
     YiParticle,
     YiCopy,
     YiPrint,
-    YiDownload
+    YiDownload,
+    YiPhotoPreview
 ]
 
 const install = (Vue) => {
@@ -28,5 +30,6 @@ export default {
     YiParticle,
     YiCopy,
     YiPrint,
-    YiDownload
+    YiDownload,
+    YiPhotoPreview
 }

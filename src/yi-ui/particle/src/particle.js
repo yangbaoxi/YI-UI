@@ -87,4 +87,5 @@ class Particle {
         return sColor;
     }
 }
+
 export default Particle;

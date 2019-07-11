@@ -36,6 +36,21 @@ const router = new Router({
             path: '/download',
             name: 'download',
             component: () => import('@/views/download/downloadDemo.vue')
+        },
+        {
+            path: '/from',
+            name: 'from',
+            component: () => import('@/views/from/from.vue')
+        },
+        {
+            path: "/photo",
+            name: "photo",
+            component: () => import('@/views/photo/photoDemo.vue')
+        },
+        {
+            path: "/canvas",
+            name: "canvas",
+            component: () => import('@/views/canvas/demo.vue')
         }
     ]
 })

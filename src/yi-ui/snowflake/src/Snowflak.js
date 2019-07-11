@@ -6,7 +6,7 @@ class Snowflak {
         this.width = width;// 画布宽
         this.height = height;// 画布稿
         this.imgSrc = imgSrc;// 粒子替换src
-        this.alpha = this.random(0.3, 1);// 圆透明度
+        this.alpha = this.random(0.8, 1);// 圆透明度
     }
     // 制作雪花
     draw(x, y, r, moveX, moveY){
